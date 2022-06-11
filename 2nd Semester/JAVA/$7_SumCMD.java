@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class $7_SumCMD {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         System.out.println("Enter " + args[0] + " number:\n");
 
@@ -12,14 +13,15 @@ public class $7_SumCMD {
         n = Integer.parseInt(args[0]);
         num = new int[n];
 
-        for (i = 0; i < n; i++)
+        for (i = 0; i < n; i++) {
             num[i] = in.nextInt();
+            in.close();
+        }
 
-        for (int temp : num)
+        for (int temp : num) {
             sum += temp;
+        }
 
         System.out.println("Sum = " + sum);
-
-        in.close();
     }
 }
