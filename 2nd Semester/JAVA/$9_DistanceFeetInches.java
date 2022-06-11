@@ -6,9 +6,7 @@ import java.util.Scanner;
 class Dist {
     int feet, inches;
 
-    // Dist();
-
-    void setDist(int feet, int inches) {
+    Dist(int feet, int inches) {
         this.feet = feet;
         this.inches = inches;
     }
@@ -29,8 +27,8 @@ public class $9_DistanceFeetInches {
         System.out.println("Enter distance in Inches: ");
         int I = cin.nextInt();
 
-        Dist box = new Dist();
-        box.setDist(F, I);
+        Dist box = new Dist(F, I);
+
         box.outDist();
 
         cin.close();
