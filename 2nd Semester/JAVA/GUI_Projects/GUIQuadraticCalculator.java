@@ -22,21 +22,17 @@ public class GUIQuadraticCalculator {
         }
 
         else if (determinant == 0) {
-            root1 = root2 = -b / (2 * a);
+            root1 = -b / (2 * a);
 
             y1 = ("x = " + root1);
-            y2 = ("x = " + root2);
             x1.append(y1);
-            x2.append(y2);
+            x2.append(y1);
 
         }
 
         else {
             double real = -b / (2 * a);
             double imaginary = Math.sqrt(-determinant) / (2 * a);
-
-            root1 = real + imaginary;
-            root2 = real - imaginary;
 
             y1 = ("x = " + real + " + " + imaginary + "i");
             y2 = ("x = " + real + " - " + imaginary + "i");
@@ -49,15 +45,13 @@ public class GUIQuadraticCalculator {
     GUIQuadraticCalculator() {
 
         // Overall Look and Flow
+
         // Frame
         JFrame calFrame = new JFrame("Quadratic Calculator");
         calFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         calFrame.setLayout(new GridLayout(6, 2));
         calFrame.setSize(700, 400);
         calFrame.setVisible(true);
-
-        // Panel
-        // JPanel inputVar = new JPanel();
 
         // Label
         JLabel standQE = new JLabel("Standard Quadratic Equation Form");
