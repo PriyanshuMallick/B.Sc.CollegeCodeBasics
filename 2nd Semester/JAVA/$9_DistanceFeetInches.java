@@ -1,4 +1,4 @@
-// Write a program to create a ―distanceǁ class with methods where distance is computed in 
+// Write a program to create a distance class with methods where distance is computed in 
 // terms of feet and inches, how to create objects of a class and to see the use of this pointer
 
 import java.util.Scanner;
