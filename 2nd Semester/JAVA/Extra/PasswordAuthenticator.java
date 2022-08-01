@@ -2,7 +2,6 @@
 // The fisrt of which is a digit 1, 3 or 5. and the rest 7 digits are either english alphabets or digits
 
 import java.util.Scanner;
-// import java.lang.Integer;
 
 class InvalidPasswordException extends Exception {
     InvalidPasswordException(String message) {
@@ -28,7 +27,6 @@ public class PasswordAuthenticator {
         char firstChar[] = { '1', '3', '5' };
 
         for (char i : firstChar) {
-            System.out.println("First Character: " + password.charAt(0) + "  i: " + i);
 
             if (password.charAt(0) == i) {
                 F = 1;
@@ -44,11 +42,8 @@ public class PasswordAuthenticator {
         // Check rest of the password
 
         for (int i = 1; i < validPasswordLength; i++) {
-            System.out.println("Check rest of the password");
 
             byte uni = (byte) password.charAt(i);
-            System.out.println(i + " : " + password.charAt(i));
-            System.out.println("uni: " + uni);
 
             if (uni >= 48 && uni <= 57 // 0 - 9
                     || uni >= 65 && uni <= 90 // A - Z
@@ -72,9 +67,8 @@ public class PasswordAuthenticator {
         cin.close();
 
         try {
-            System.out.println("In Try Statement :\n");
             validatePassword(password);
-            System.out.println("Your password is correct");
+            System.out.println("\nYour password is correct");
         } catch (InvalidPasswordException e) {
             System.out.println("Invalid password : " + e);
         }
