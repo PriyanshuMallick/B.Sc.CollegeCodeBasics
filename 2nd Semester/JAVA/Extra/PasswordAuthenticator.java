@@ -1,5 +1,5 @@
 // Suppose a valid computer password consist of 8 characters
-// The fisrt of which is a digit 1, 3 or 5. and the rest 7 digits are either english alphabets or digits
+// The fisrt of which is a digit 1, 3 or 5. and the rest 7 characters are either english alphabets or digits
 
 import java.util.Scanner;
 
@@ -37,7 +37,6 @@ public class PasswordAuthenticator {
         if (F == 0) {
             throw new InvalidPasswordException("First character must be the digit 1, 3, 5");
         }
-        F = 0;
 
         // Check rest of the password
 
@@ -52,9 +51,7 @@ public class PasswordAuthenticator {
                 continue;
             }
 
-            if (F == 0) {
-                throw new InvalidPasswordException("Last 7 characters must be either english alphabets or digits");
-            }
+            throw new InvalidPasswordException("Last 7 characters must be either english alphabets or digits");
         }
     }
 
