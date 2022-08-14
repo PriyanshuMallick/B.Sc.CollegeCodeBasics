@@ -1,2 +1,2 @@
 # B.Sc.CollegeCodeBasics
-Here I am uploading all the codes that are given as practical projects in my B. Sc. Course. 
+Here I am uploading all the codes that are either given as practical projects in my B.Sc. in Computer Sc. Course or some small test projects that I have worked on in order to improve the my skills and learm new things and techniques
