@@ -22,5 +22,6 @@ If you have any feedback, please reach out to me at links given below
 ## 🔗 Get In touch
 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mallickpri)
+
 [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mallickpriyanshu)
 
