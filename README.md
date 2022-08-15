@@ -16,7 +16,7 @@ Here I am uploading all the codes that are either given as practical projects in
 
 ## 🤖 Feedback
 
-If you have any feedback, please reach out to me at links given below
+If you have any feedback, please reach out to me at the links given below
 
 
 ## 🔗 Get In touch
