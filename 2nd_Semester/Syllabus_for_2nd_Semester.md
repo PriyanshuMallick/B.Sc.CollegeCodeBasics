@@ -1,4 +1,4 @@
-Practical / Lab work to be performed in JAVA
+# Practical / Lab work to be performed in JAVA
 
 1. To find the sum of any number of integers entered as command line arguments
 

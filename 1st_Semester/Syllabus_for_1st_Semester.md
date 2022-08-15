@@ -1,4 +1,4 @@
-Practical / Lab work to be performed in C or C++
+# Practical / Lab work to be performed in C or C++
 
 1. Write a program to print the sum and product of digits of an integer.
 
