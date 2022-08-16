@@ -1,6 +1,6 @@
 <i>
 
-# B.Sc.CollegeCodeBasics 
+# B.Sc.CollegeCodeBasics </i>👾<i>
 
 Here I am uploading all the codes that are either given as practical projects in my B.Sc. in Computer Sc. Course or some small test projects that I have worked on to improve my skills and learn new things and techniques  in programming
 
@@ -15,7 +15,7 @@ Here I am uploading all the codes that are either given as practical projects in
 
 <br/><br/>
 
-#  📚 Syllabus 
+#  </i>📚<i> Syllabus 
 
 <br/>
 <!-- START OF 1ST SEMESTER SYLLABUS-->
@@ -269,7 +269,7 @@ Write a program which takes input from the user for length, breath and height to
 ***
 <br/>
 
-## 🤖 <i> Feedback <> </i>
+## </i>🤖<i> <i> Feedback <> </i>
 
 If you have any feedback, please reach out to me at the links given below
 
@@ -279,5 +279,6 @@ If you have any feedback, please reach out to me at the links given below
 
 [![Twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mallickpri)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mallickpriyanshu)
+[![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](priyanshumallick@protonmail.com)
 
 </i>
