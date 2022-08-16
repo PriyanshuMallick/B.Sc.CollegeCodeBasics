@@ -6,6 +6,7 @@ public class $19_NestedTry {
         try {
             try {
                 int x = 2 / 0;
+                System.out.println(x);
             } catch (ArithmeticException e) {
                 System.out.println("ArithmeticException :\n" + e.getMessage());
             }
