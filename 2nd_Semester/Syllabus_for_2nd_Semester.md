@@ -21,7 +21,7 @@
 <br/><br/>
 
 6. To check if a number is prime or not, by taking the number as input from the keyboard
-- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/2nd_Semester/JAVA/Practicals/%246_isPrime.java)
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/2nd_Semester/JAVA/Practicals/%246_IsPrime.java)
 <br/><br/>
 
 7. To find the sum of any number of integers interactively, i.e., entering every number from the keyboard, whereas the total number of integers is given as a command line argument
