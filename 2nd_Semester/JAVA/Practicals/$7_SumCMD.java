@@ -9,13 +9,12 @@ public class $7_SumCMD {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter " + args[0] + " number:\n");
 
-        int num[], i, sum = 0, n;
+        int num[], sum = 0, n;
         n = Integer.parseInt(args[0]);
         num = new int[n];
 
-        for (i = 0; i < n; i++) {
+        for (int i : num) {
             num[i] = in.nextInt();
-            in.close();
         }
 
         for (int temp : num) {
@@ -23,5 +22,7 @@ public class $7_SumCMD {
         }
 
         System.out.println("Sum = " + sum);
+
+        in.close();
     }
 }
