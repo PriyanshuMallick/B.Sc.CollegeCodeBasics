@@ -10,10 +10,9 @@ import java.net.Socket;
 
 public class $23_DatagramServer {
     public static void main(String[] args) {
-        // ServerSocket serverSoc = null;
 
         try {
-            // Server registred at port 0000
+            // Server registred at port 5432
             ServerSocket serverSoc = new ServerSocket(5432);
             System.out.println("Starting Server");
 

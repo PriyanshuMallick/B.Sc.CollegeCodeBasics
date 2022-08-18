@@ -25,8 +25,8 @@ public class $12_ClassAccessSpecifiers {
 
         // Here we can see that a.no and a.x give us the values of the corresponding
         // variables
-        // But the same is no posible for the a.x because it is a private variable of
+        // But the same is no posible for the a.ans because it is a private variable of
         // the class Multi10
-        // And using a.x whoud give us an error
+        // And using a.ans whoud give us an error
     }
 }

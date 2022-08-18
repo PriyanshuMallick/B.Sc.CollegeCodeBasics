@@ -1,7 +1,5 @@
 // 21. Write a program to demonstrate priorities among multiple threads.
 
-// import java.lang.Thread;
-
 class T1 extends Thread {
     public void run() {
         System.out.println("Start of thread T1");

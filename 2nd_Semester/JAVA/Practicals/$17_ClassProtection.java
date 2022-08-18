@@ -1,9 +1,7 @@
-import PackFiles.ClassProTest;
-import PackFiles.ProTest;
-
 // 17. Write a program that creates illustrates different levels of protection in classes/subclasses belonging to same package or different packages
 
-// https://hunteye.blogspot.com/2021/12/write-program-that-creates-illustrates.html
+import PackFiles.ClassProTest;
+import PackFiles.ProTest;
 
 public class $17_ClassProtection {
     public static void main(String[] args) {

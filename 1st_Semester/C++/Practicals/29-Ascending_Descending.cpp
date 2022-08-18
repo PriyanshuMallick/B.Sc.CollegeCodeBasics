@@ -1,7 +1,6 @@
 // 29. Write a program that will read 10 integers from user and store them in an array. Implement array using pointers. The program will print the array elements in ascending and descending order.
 
 #include <iostream>
-#include <algorithm>
 using namespace std;
 
 void asc(int *x, int n)
