@@ -11,91 +11,16 @@ ix) Reverse the string*/
 
 #include <iostream>
 #include <cstring>
-#include <algorithm>
+
 using namespace std;
-string E()
-{
-    string s;
-    cout << "Enter something" << endl;
-    cin >> s;
-    return s;
-}
-/*void addchar()
+string enterStr()
 {
     string str;
-    str = E();
-    for (int i = 0; i < str.length(); i++)
-        cout << str[i] << " = " << (void *)&str[i] << endl;
-}
-void catstr()
-{
-    string str, str1;
-    str = E();
-    str1 = E();
-    string x = str + str1;
-    cout << x << endl;
-}
-void cmp()
-{
-    string str, str1;
-    str = E();
-    str1 = E();
-    int x = str.compare(str1);
-    if (x < 0)
-        cout << str << " is less than " << str1 << endl;
-    else if (x < 0)
-        cout << str << " is greater than " << str1 << endl;
-    else
-        cout << str << " is equal to " << str1 << endl;
-}
-void len()
-{
-    char str[30];
     cout << "Enter something" << endl;
     cin >> str;
-    char *p = str;
-    int i;
-    for (i = 0; str[i] != '\0'; i++)
-        ;
-    cout << "Length: " << i << endl;
+    return str;
 }
-void u()
-{
-    string str;
-    str = E();
-    int i;
-    for (int i = 0; str[i] != '\0'; i++)
-        if (str[i] >= 'a' && str[i] <= 'z')
-            str[i] -= 32;
-    cout << str << endl;
-}
-void l()
-{
-    string str;
-    str = E();
-    int i;
-    for (int i = 0; str[i] != '\0'; i++)
-        if (str[i] >= 'A' && str[i] <= 'Z')
-            str[i] += 32;
-    cout << str << endl;
-}
-void calv()
-{
-    string str;
-    str = E();
-    int i, c = 0;
-    for (int i = 0; str[i] != '\0'; i++)
-        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
-            c++;
-    cout << "No of vowels : " << c << endl;
-}
-void srev()
-{
-    string str, r;
-    str = E();
-    reverse(str.begin(), str.end());
-    cout << "In reverse: " << str << endl;
-}*/
+
 int main()
 {
     while (true)
@@ -116,15 +41,15 @@ int main()
         int i, x;
         if (option == 1)
         {
-            str = E();
+            str = enterStr();
             for (int i = 0; i < str.length(); i++)
                 cout << str[i] << " = " << (void *)&str[i] << endl;
         }
 
         else if (option == 2)
         {
-            str = E();
-            str1 = E();
+            str = enterStr();
+            str1 = enterStr();
             string rs = str + str1;
             cout << rs << endl;
         }
@@ -138,8 +63,8 @@ int main()
         }
         else if (option == 4)
         {
-            str = E();
-            str1 = E();
+            str = enterStr();
+            str1 = enterStr();
             int x;
             x = str.compare(str1);
             if (x < 0)
@@ -164,7 +89,7 @@ int main()
         else if (option == 6)
         {
             string str;
-            str = E();
+            str = enterStr();
             int i;
             for (int i = 0; str[i] != '\0'; i++)
                 if (str[i] >= 'a' && str[i] <= 'z')
@@ -174,7 +99,7 @@ int main()
         else if (option == 7)
         {
             string str;
-            str = E();
+            str = enterStr();
             int i;
             for (int i = 0; str[i] != '\0'; i++)
                 if (str[i] >= 'A' && str[i] <= 'Z')
@@ -184,7 +109,7 @@ int main()
         else if (option == 8)
         {
             string str;
-            str = E();
+            str = enterStr();
             int i, c = 0;
             for (int i = 0; str[i] != '\0'; i++)
                 if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
@@ -194,9 +119,8 @@ int main()
         else if (option == 9)
         {
             string str, r;
-            str = E();
+            str = enterStr();
             int len = str.length();
-            // reverse(str.begin(), str.end());
             cout << "In reverse: ";
             for (int i = len - 1; i >= 0; i--)
                 cout << str[i];
