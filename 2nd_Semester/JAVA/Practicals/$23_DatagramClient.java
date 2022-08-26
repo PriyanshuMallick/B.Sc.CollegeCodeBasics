@@ -5,7 +5,6 @@
 // I just tried optimizing the code by not importing unnecessary classes
 
 import java.net.DatagramSocket;
-// import java.net.InetAddress;
 import java.net.DatagramPacket;
 
 public class $23_DatagramClient {
