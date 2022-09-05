@@ -41,6 +41,5 @@ public class $23_DatagramServer_0 {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }
