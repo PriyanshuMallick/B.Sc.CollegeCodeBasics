@@ -6,7 +6,7 @@
 
     - There is working version of this file/question in same directory as this file named "25-Student_Struct_v2"
 
-    - I'm too lazy to fix this file but feel free to fork this and fix this file and I will merge it with the main banch
+    - I'm too lazy to fix this file but feel free to branch this and fix this file and I will merge it with the main branch
 
 */
 
