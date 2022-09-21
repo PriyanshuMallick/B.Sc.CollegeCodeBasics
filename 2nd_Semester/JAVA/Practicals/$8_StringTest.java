@@ -19,12 +19,12 @@ public class $8_StringTest {
 
         // append()
         System.out.println("Before append() String is\n" + bstr);
-        bstr.append(" I'm a AI.");
+        bstr.append(", I'm a AI.");
         System.out.println("After append() String is\n" + bstr + "\n");
 
         // insert()
         System.out.println("Before insert() String is\n" + bstr);
-        bstr.insert(8, 'n');
+        bstr.insert(9, 'n');
         System.out.println("After insert() String is\n" + bstr + "\n");
 
         // concat()

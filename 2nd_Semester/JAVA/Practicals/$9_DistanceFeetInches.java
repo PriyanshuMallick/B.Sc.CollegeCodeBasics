@@ -6,9 +6,6 @@ import java.util.Scanner;
 class Dists {
     int feet, inches;
 
-    // Dists() {
-    // };
-
     Dists(int feet, int inches) {
         this.feet = feet;
         this.inches = inches;

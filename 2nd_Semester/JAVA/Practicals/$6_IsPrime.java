@@ -26,11 +26,7 @@ public class $6_IsPrime {
         System.out.println("Enter a number");
         int num = cin.nextInt();
 
-        if (isPrime(num)) {
-            System.out.println("Prime");
-        } else {
-            System.out.println("Not Prime");
-        }
+        System.out.println(isPrime(num) ? "Prime" : "Not Prime");
 
         cin.close();
     }
