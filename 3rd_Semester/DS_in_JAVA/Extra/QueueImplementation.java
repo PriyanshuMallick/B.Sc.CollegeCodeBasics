@@ -12,9 +12,11 @@ public class QueueImplementation {
         queue.add(6);
         queue.add(7);
 
-        System.out.println(queue.del() + "\n");
-        System.out.println(queue.del() + "\n");
-        System.out.println(queue.del() + "\n");
+        System.out.println("Peek : " + queue.peek() + "\n");
+
+        System.out.println("Removing: " + queue.remove() + "\n");
+        System.out.println("Removing: " + queue.remove() + "\n");
+        System.out.println("Removing: " + queue.remove() + "\n");
 
         queue.display();
     }

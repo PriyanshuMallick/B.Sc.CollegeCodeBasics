@@ -34,7 +34,7 @@ public class QueueLL<T> {
         size++;
     }
 
-    public T del() {
+    public T remove() {
         if (isEmpty()) {
             System.out.println("Empty queue");
             return null;
@@ -43,6 +43,15 @@ public class QueueLL<T> {
             front = front.next;
             size--;
             return temp;
+        }
+    }
+
+    public T peek() {
+        if (isEmpty()) {
+            System.out.println("Empty queue");
+            return null;
+        } else {
+            return front.data;
         }
     }
 
