@@ -1,5 +1,4 @@
-// Genaric 
-Queue using LinkedList
+// Genaric Queue using LinkedList
 
 package CustomDB;
 
