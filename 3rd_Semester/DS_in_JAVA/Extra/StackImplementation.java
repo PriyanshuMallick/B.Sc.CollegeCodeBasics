@@ -1,3 +1,4 @@
+// Stack using Array
 
 class Stack {
     int size, top;
@@ -24,15 +25,20 @@ class Stack {
             stack[++top] = data;
     }
 
-    public void pop() {
-        if (isEmpty())
+    public int pop() {
+        if (isEmpty()) {
             System.out.println("Stack is empty");
-        else
-            top--;
+            return -1;
+        } else
+            return top--;
     }
 
     public int peek() {
         return stack[top];
+    }
+
+    public void display() {
+
     }
 }
 
