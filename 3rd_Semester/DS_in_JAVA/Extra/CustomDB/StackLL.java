@@ -1,6 +1,6 @@
 // Genaric Stack using LinkedList
 
-package CustomDB;
+package customDB;
 
 import java.util.EmptyStackException;
 

@@ -1,6 +1,6 @@
 // Genaric Queue using LinkedList
 
-package CustomDB;
+package customDB;
 
 public class QueueLL<T> {
     private Node front, rear;

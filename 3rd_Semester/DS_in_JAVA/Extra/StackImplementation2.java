@@ -1,4 +1,4 @@
-import CustomDB.StackLL;
+import customDB.StackLL;
 
 public class StackImplementation2 {
     public static void main(String[] args) {
