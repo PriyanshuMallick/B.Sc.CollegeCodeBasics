@@ -17,6 +17,14 @@ public class DoublyLL<T> {
         }
     }
 
+    public boolean isEmpty() {
+        return head == null;
+    }
+
+    public int size() {
+        return size;
+    }
+
     public void insertatbeg(T nData) {
         Node nNode = new Node(nData);
         nNode.next = head;
@@ -101,10 +109,10 @@ public class DoublyLL<T> {
     }
 
     public void printlist(Node n) {
-        Node last = null;
+        // Node last = null;
         while (n != null) {
             System.out.print(n.data + " -> ");
-            last = n;
+            // last = n;
             n = n.next;
         }
         System.out.println();
