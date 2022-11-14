@@ -1,5 +1,6 @@
-read -p "Enter a Number: " num
+# 18. Write a shell script to check whether the number is Armstrong or not.
 
+num=$1
 temp=$num
 pow=0
 sum=0
@@ -33,7 +34,7 @@ if [ $sum -eq $num ]
 then 
     echo "Armstrong"
 else
-    echo "Not armstrong"
+    echo "Not Armstrong"
 fi
 
 echo $sum
