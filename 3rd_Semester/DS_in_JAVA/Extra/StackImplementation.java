@@ -1,10 +1,10 @@
 // Stack using Array
 
-class Stack {
+class Stack2 {
     int size, top;
     int[] stack;
 
-    Stack(int size) {
+    Stack2(int size) {
         this.size = size;
         top = -1;
         stack = new int[size];
@@ -44,7 +44,7 @@ class Stack {
 
 public class StackImplementation {
     public static void main(String[] args) {
-        Stack a = new Stack(5);
+        Stack2 a = new Stack2(5);
 
         if (a.isEmpty())
             System.out.println("Stack is empty");

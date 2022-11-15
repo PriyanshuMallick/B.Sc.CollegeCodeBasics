@@ -1,6 +1,6 @@
 // 6. Perform Stack operations using Linked List implementation.
 
-class Stack<T> {
+class Stack2<T> {
     private Node top;
     private int size = 0;
 
@@ -64,7 +64,7 @@ class Stack<T> {
 
 public class $6_Stack {
     public static void main(String[] args) {
-        Stack<Integer> stack = new Stack<>();
+        Stack2<Integer> stack = new Stack2<>();
 
         stack.isEmpty();
         stack.push(1);
