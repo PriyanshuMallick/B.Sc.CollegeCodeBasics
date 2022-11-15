@@ -10,18 +10,24 @@
 
 int main()
 {
-    pid_t pid;
-    int p;
-    p = fork();
-    pid = getpid();
+    int pid = fork();
 
-    if (p < 0)
+    if (pid < 0)
     {
-        fprintf(stderr, "Fork failed");
-        return 1;
+        printf("\nError\n");
+        exit(1);
     }
-
-    printf("Fork ID: %d\n", p);
-    printf("Process ID: %d\n", pid);
+    else if (pid == 0)
+    {
+        printf("\nFrom Child Process\n");
+        printf("Pid: %d\n", getpid());
+        exit(0);
+    }
+    else
+    {
+        printf("\nFrom Parent Process\n");
+        printf("Pid: %d\n", getpid());
+        exit(1);
+    }
     return 0;
 }
