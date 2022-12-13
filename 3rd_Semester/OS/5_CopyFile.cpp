@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
     if (argc < 2)
     {
-        cout << "Enter source and destination" << endl;
+        system("echo \"Enter source and destination\"");
         return 1;
     }
 
@@ -20,12 +20,12 @@ int main(int argc, char *argv[])
 
     if (f1 == -1)
     {
-        cout << "Error opening firstfile" << endl;
+        system("echo \"Error opening firstfile\"");
         close(f1);
         return 1;
     }
 
-    f2 = open(argv[2], O_WRONLY | O_CREAT | S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
+    f2 = open(argv[2], O_WRONLY | O_CREAT, 0641);
 
     while (read(f1, &buf, 1))
     {

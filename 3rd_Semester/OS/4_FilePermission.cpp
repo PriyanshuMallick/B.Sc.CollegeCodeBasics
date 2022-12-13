@@ -31,8 +31,21 @@ int main(int argc, char *argv[])
             cout << "Group ID : " << s.st_gid << endl;
             cout << "Access Time : " << s.st_atime << endl;
             cout << "File Size : " << s.st_size << endl;
+
+            cout << "File Permissions: \t";
+
+            printf((S_ISDIR(s.st_mode)) ? "d" : "-");
+            printf((s.st_mode & S_IRUSR) ? "r" : "-");
+            printf((s.st_mode & S_IWUSR) ? "w" : "-");
+            printf((s.st_mode & S_IXUSR) ? "x" : "-");
+            printf((s.st_mode & S_IRGRP) ? "r" : "-");
+            printf((s.st_mode & S_IWGRP) ? "w" : "-");
+            printf((s.st_mode & S_IXGRP) ? "x" : "-");
+            printf((s.st_mode & S_IROTH) ? "r" : "-");
+            printf((s.st_mode & S_IWOTH) ? "w" : "-");
+            printf((s.st_mode & S_IXOTH) ? "x" : "-");
+            cout << endl;
         }
     }
-
     return 0;
 }
