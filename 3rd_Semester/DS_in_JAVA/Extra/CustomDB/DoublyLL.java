@@ -1,7 +1,7 @@
 // Implement Doubly Linked List using templates. Include functions for insertion, 
 // deletion and search of a number, reverse the list.
 
-package customDB;
+package CustomDB;
 
 public class DoublyLL<T> {
     private Node head;
