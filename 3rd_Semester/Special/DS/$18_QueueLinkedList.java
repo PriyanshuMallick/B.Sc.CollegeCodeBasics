@@ -1,20 +1,19 @@
-// 6. Implement Doubly Linked List using templates. Include functions 
-// for insertion, deletion and search of a number.
+// 18. Perform Queue operations using Linked List implementation.
 
-class DLL1<T> {
-    Node head;
-    int size;
+class QLL<T> {
+    private Node head, tail;
+    private int size = 0;
 
     private class Node {
-        private Node prev, next;
-        private T data;
+        Node next;
+        T data;
 
         private Node(T data) {
             this.data = data;
         }
     }
 
-    public Boolean isEmpty() {
+    public boolean isEmpty() {
         return head == null;
     }
 
@@ -24,27 +23,23 @@ class DLL1<T> {
 
     public void insert(T data) {
         Node nNode = new Node(data);
-        nNode.next = head;
-
-        if (!isEmpty())
-            head.prev = nNode;
-
-        head = nNode;
+        if (isEmpty()) {
+            head = nNode;
+            tail = nNode;
+        }
+        tail.next = nNode;
+        tail = nNode;
         size++;
     }
 
     public T delete() {
+        if (isEmpty()) {
+            System.out.println("List is empty");
+            return null;
+        }
         T tmpData = head.data;
-        head.next.prev = null;
         head = head.next;
         return tmpData;
-    }
-
-    public boolean search(T data) {
-        for (Node curr = head; curr != null; curr = curr.next)
-            if (curr.data == data)
-                return true;
-        return false;
     }
 
     public void print() {
@@ -55,9 +50,9 @@ class DLL1<T> {
     }
 }
 
-public class $6_DoublyLinkedList {
+public class $18_QueueLinkedList {
     public static void main(String[] args) {
-        DLL1<Integer> list = new DLL1<>();
+        QLL<Integer> list = new QLL<>();
 
         for (int i = 10; i > 0; i--)
             list.insert(i);
@@ -68,8 +63,5 @@ public class $6_DoublyLinkedList {
         System.out.println(list.delete());
 
         list.print();
-
-        System.out.println(list.search(5));
-        System.out.println(list.search(40));
     }
 }

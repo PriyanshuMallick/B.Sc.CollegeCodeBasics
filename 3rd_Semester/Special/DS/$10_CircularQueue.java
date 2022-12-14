@@ -1,7 +1,7 @@
-// 7. Implement Circular Linked List using templates. Include functions 
-// for insertion, deletion and search of a number, reverse the list
+// 10. Perform Queues operations using Circular Array implementation. 
+// Use Templates.
 
-class CLL1<T> {
+class CQ<T> {
     private Node head, tail;
     private int size;
 
@@ -27,7 +27,7 @@ class CLL1<T> {
         if (isEmpty()) {
             head = nNode;
             tail = nNode;
-            nNode.next = head;
+            nNode.next = nNode;
             size++;
             return;
         }
@@ -44,33 +44,17 @@ class CLL1<T> {
             return null;
         }
 
-        T tmpData = head.data;
-        if (head == head.next) {
+        T tmp = head.data;
+
+        if (head == tail) {
             head = null;
             tail = null;
-            size--;
-            return tmpData;
+            return tmp;
         }
+
+        tail.next = head.next;
         head = head.next;
-        tail = head;
-        size--;
-        return tmpData;
-    }
-
-    public boolean search(T data) {
-        if (isEmpty()) {
-            System.out.println("List is empty");
-            return false;
-        }
-
-        Node curr = head;
-        do {
-            if (curr.data == data)
-                return true;
-            curr = curr.next;
-        } while (curr.next != head);
-
-        return false;
+        return tmp;
     }
 
     public void print() {
@@ -88,12 +72,12 @@ class CLL1<T> {
     }
 }
 
-public class $7_CircularLinkedList {
+public class $10_CircularQueue {
     public static void main(String[] args) {
-        CLL1<Integer> list = new CLL1<>();
+        CQ<Integer> list = new CQ<>();
 
-        for (int i = 10; i > 0; i--)
-            list.insert(i);
+        for (int i = 0; i < 10; i++)
+            list.insert(i + 1);
 
         list.print();
 
@@ -102,7 +86,7 @@ public class $7_CircularLinkedList {
 
         list.print();
 
-        System.out.println(list.search(5));
-        System.out.println(list.search(40));
+        list.insert(11);
+        list.print();
     }
 }
