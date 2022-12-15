@@ -5,7 +5,7 @@ temp=$num
 pow=0
 sum=0
 # To find the total number of digits in $num
-while [ $temp -gt 0 ]
+while [ $temp -ne 0 ]
 do
     temp=$((temp / 10 ))
     pow=$((pow + 1 ))
@@ -17,13 +17,13 @@ temp=$num
 while [ $temp -gt 0 ]
 do
     rem=$((temp % 10))
-    x=$rem
-    i=$pow
+    x=1
+    i=0
     # To find the pow of the number
-    while [ $i -gt 1 ]
+    while [ $i -lt $pow ]
     do
         x=$(( x * rem))
-        i=$((i - 1 ))
+        i=$((i + 1 ))
     done
 
     sum=$((sum + x))
