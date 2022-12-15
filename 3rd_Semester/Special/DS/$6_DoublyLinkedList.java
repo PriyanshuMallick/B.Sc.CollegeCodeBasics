@@ -24,10 +24,11 @@ class DLL1<T> {
 
     public void insert(T data) {
         Node nNode = new Node(data);
-        nNode.next = head;
 
-        if (!isEmpty())
+        if (!isEmpty()) {
+            nNode.next = head;
             head.prev = nNode;
+        }
 
         head = nNode;
         size++;

@@ -5,38 +5,38 @@
 using namespace std;
 int main()
 {
-    int nf, N, c = 0, i = 1;
+    int nFrames, winSize, c = 0, frameToSent = 1;
     srand(time(NULL));
     cout << "Enter the number of frames : ";
-    cin >> nf;
+    cin >> nFrames;
     cout << "Enter the Window Size : ";
-    cin >> N;
+    cin >> winSize;
 
-    while (i <= nf)
+    while (frameToSent <= nFrames)
     {
-        int x = 0;
-        for (int j = i; j < i + N && j <= nf; j++)
+        int ackRev = 0;
+        for (int frame = frameToSent; frame < frameToSent + winSize && frame <= nFrames; frame++)
         {
-            cout << "Sent Frame " << j << endl;
+            cout << "Sent Frame " << frame << endl;
             c++;
         }
-        for (int j = i; j < i + N && j <= nf; j++)
+        for (int frame = frameToSent; frame < frameToSent + winSize && frame <= nFrames; frame++)
         {
             int flag = rand() % 2;
             if (!flag)
             {
-                cout << "Acknowledgment for Frame " << j << endl;
-                x++;
+                cout << "Acknowledgment for Frame " << frame << endl;
+                ackRev++;
             }
             else
             {
-                cout << "Frame " << j << " Not Received" << endl;
+                cout << "Frame " << frame << " Not Received" << endl;
                 cout << "Retransmitting Window" << endl;
                 break;
             }
         }
         cout << endl;
-        i += x;
+        frameToSent += ackRev;
     }
     cout << "Total number of transmissions : " << c << endl;
     return 0;
