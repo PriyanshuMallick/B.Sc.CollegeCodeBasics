@@ -9,7 +9,7 @@ struct node
 } DVR[10];
 int main()
 {
-    cout << "\n\n-------------------- Distance Vector Routing Algorithm----------- ";
+    cout << "\n\n----------- Distance Vector Routing Algorithm ----------- ";
     int costmat[6][6];
     int nodes, i, j, k;
     cout << "\n\n Enter the number of nodes : ";

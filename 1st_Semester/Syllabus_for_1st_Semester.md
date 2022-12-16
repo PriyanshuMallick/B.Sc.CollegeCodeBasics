@@ -62,6 +62,7 @@
 -   Remove the duplicates from the array
 -   Print the array in reverse order <br>
     The program should present a menu to the user and ask for one of the options. The menu should also include options to re-enter array and to quit the program.
+    <br/><br/>
 -   [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/1st_Semester/C/Practicals/10-Menu1.c)
     <br/><br/>
 
