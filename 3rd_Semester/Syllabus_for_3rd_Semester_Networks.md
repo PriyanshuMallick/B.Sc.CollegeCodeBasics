@@ -1,4 +1,4 @@
-# Practical / Lab work to be performed for <b><i>Data Structures </i></b>
+# Practical / Lab work to be performed for <b><i>Computer Networks </i></b>
 
 
 1. Simulate Cyclic Redundancy Check (CRC) error detection algorithm for noisy channel
