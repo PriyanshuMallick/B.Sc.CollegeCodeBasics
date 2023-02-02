@@ -3,7 +3,7 @@
 // a) Insertion b) Count the non­leaf nodes and leaf nodes c) 
 // Display height of tree.
 
-class BST3 {
+class BST1 {
     private class Node {
         private int key;
         private Node left, right;
