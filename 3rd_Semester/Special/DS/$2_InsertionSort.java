@@ -8,13 +8,12 @@ public class $2_InsertionSort {
         int len = list.length;
         T tmp;
         int j;
-
-        for (int i = 1; i < len; i++) {
+        for (int i = 1; i < len; ++i) {
             tmp = list[i];
             j = i - 1;
-            while (list[i].compareTo(list[j]) < 0) {
+            while (j >= 0 && tmp.compareTo(list[j]) < 0) {
                 list[j + 1] = list[j];
-                j--;
+                j = j - 1;
             }
             list[j + 1] = tmp;
         }
@@ -32,6 +31,8 @@ public class $2_InsertionSort {
         printList(list);
 
         insertionSort(list);
+
+        System.out.println("Sorted list: ");
         printList(list);
     }
 

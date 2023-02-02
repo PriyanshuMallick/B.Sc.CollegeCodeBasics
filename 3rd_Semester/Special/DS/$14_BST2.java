@@ -3,7 +3,7 @@
 // a) Insertion b) Display its preorder, postorder and inorder traversals 
 // Recursively 
 
-class BST1 {
+class BST2 {
     private class Node {
         private int key;
         private Node left, right;
