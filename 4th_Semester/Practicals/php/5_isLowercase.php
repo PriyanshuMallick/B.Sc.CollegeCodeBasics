@@ -1,7 +1,8 @@
-<!-- Create a PHP page which accepts string from user. After submission that page displays the reverse of provided string -->
+<!-- 5. Write a PHP function that checks if a string is all lower case. -->
 
 <?php
-echo "<h1>FileName: " . pathinfo(__FILE__, PATHINFO_FILENAME) . ".php</h1></br></br>";
+$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
+echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 ?>
 
 <head>
@@ -26,6 +27,6 @@ $str = (string)$_POST['str'];
 
 echo "<div class='result'>"
     . "All the characters of ' " . $str . " ' are ";
-echo ctype_lower($str) ? "" : "not" . " lowercase"
-    . "</div>";
+echo ctype_lower(trim($str)) ? "" : "not";
+echo " lowercase" . "</div>";
 ?>

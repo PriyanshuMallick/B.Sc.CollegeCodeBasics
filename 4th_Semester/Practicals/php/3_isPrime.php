@@ -1,7 +1,7 @@
-<!-- Write a function to calculate the factorial of a number (non-negative integer). The function accept the number as an argument -->
+<!-- 3. Write a program to check whether the given number is prime or not. -->
 
 <?php
-$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . ".php";
+$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
 echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 ?>
 

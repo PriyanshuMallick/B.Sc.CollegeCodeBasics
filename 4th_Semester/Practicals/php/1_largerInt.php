@@ -1,7 +1,7 @@
-<!-- Create a PHP page using functions for comparing three integers and print the largest number. -->
+<!-- 1. Create a PHP page using functions for comparing three integers and print the largest number. -->
 
 <?php
-$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . ".php";
+$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
 echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 ?>
 
@@ -42,9 +42,9 @@ function findLargest($n1, $n2, $n3)
 		return $n3;
 }
 
-$num1 = (float)$_POST['num1'];
-$num2 = (float)$_POST['num2'];
-$num3 = (float)$_POST['num3'];
+$num1 = (int)$_POST['num1'];
+$num2 = (int)$_POST['num2'];
+$num3 = (int)$_POST['num3'];
 
 $largest = findLargest($num1, $num2, $num3);
 

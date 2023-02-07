@@ -1,12 +1,12 @@
 import { projectFiles } from "./projectFileList.js";
 const indexTable = document.getElementById("indexTable");
 if (indexTable != null) {
-    addIndexTable(indexTable, projectFiles);
+  addIndexTable(indexTable, projectFiles);
 }
 function addIndexTable(table, files) {
-    files.forEach((file) => {
-        const gridRow = document.createElement("div");
-        gridRow.innerHTML = `
+  files.forEach((file) => {
+    const gridRow = document.createElement("div");
+    gridRow.innerHTML = `
       <div class="grid-row">
         <div class="grid-cell text-left">${file.name}</div>
         <div class="grid-cell text-left">${file.description}</div>
@@ -19,7 +19,7 @@ function addIndexTable(table, files) {
         </div>
       </div>
     `;
-        table.appendChild(gridRow);
-    });
+    table.appendChild(gridRow);
+  });
 }
 //# sourceMappingURL=index.js.map

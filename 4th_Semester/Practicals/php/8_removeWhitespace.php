@@ -1,4 +1,4 @@
-<!-- 4. Create a PHP page which accepts string from user. After submission that page displays the reverse of provided string -->
+<!-- 8. Write a PHP script that removes the whitespaces from a string. Sample string : 'The quick " " brown fox' Expected Output : Thequick""brownfox. -->
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
@@ -23,9 +23,12 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <?php
 if (!isset($_POST['str'])) return;
 
-$str = (string)$_POST['str'];
+$str = preg_replace('/\s+/ ', '', $_POST['str']);
 
-echo "<div class='result'>"
-    . "Reverse of '" . $str . "' is:<br>" . strrev($str)
-    . "</div>";
+if ($str == null) return;
+
+
+echo "<div class='result'>";
+echo $str;
+echo  "</div>";
 ?>

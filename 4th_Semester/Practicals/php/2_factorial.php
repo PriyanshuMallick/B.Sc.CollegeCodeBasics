@@ -1,7 +1,8 @@
-<!-- Write a function to calculate the factorial of a number (non-negative integer). The function accept the number as an argument -->
+<!-- 2. Write a function to calculate the factorial of a number (non-negative integer). The function accept the number as an argument -->
 
 <?php
-echo "<h1>FileName: " . pathinfo(__FILE__, PATHINFO_FILENAME) . ".php</h1></br></br>";
+$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
+echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 ?>
 
 <head>
@@ -11,7 +12,7 @@ echo "<h1>FileName: " . pathinfo(__FILE__, PATHINFO_FILENAME) . ".php</h1></br><
 <body>
     <div class="form-container">
         <form action="" method="post">
-            Enter a number: <input type="number" name="num"><br><br>
+            Enter a number: <input type="number" min="0" name="num"><br><br>
             <input type="submit" value="Submit">
         </form>
     </div>
@@ -31,11 +32,8 @@ function findFactorial($n1)
 
 $num = (int)$_POST['num'];
 
-if ($num < 0) {
-    echo "<div class='result'>" . "Invalid number: $num" . "</div>";
-    return;
-} else {
-    echo "<div class='result'>"
-        . "The factorial of " . $num . " is: " . findFactorial($num)
-        . "</div>";
-} ?>
+
+echo "<div class='result'>"
+    . "The factorial of " . $num . " is: " . findFactorial($num)
+    . "</div>";
+?>
