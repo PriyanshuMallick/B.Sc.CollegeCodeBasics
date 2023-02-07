@@ -1,0 +1,9 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES6",
+    "sourceMap": true,
+    // "outDir": "../dist",
+    "watch": true
+  }
+}
