@@ -1,13 +1,26 @@
 :root
   --accent-color-1: rgba(187, 156, 96, 1)
+  --accent-color-2: #bb6b60
+  --bg-gradient: linear-gradient(180deg, #1F1D29 0%, #16121E)
   
 body
   // background: linear-gradient(180deg, #1F1D29 0%, #16121E 41.15%)
-  background: linear-gradient(180deg, #1F1D29 0%, #16121E )
+  background: var(--bg-gradient)
   min-height: 100vh
   font-family: Arial, sans-serif
   font-size: 14px
   color: var(--accent-color-1)
+  
+  &::-webkit-scrollbar
+    background: var(--bg-gradient)
+    width: .3em
+
+  &::-webkit-scrollbar-thumb
+    background-color:  #bb9d6036
+    border-radius: 25px
+
+    &:hover
+      background: var(--accent-color-1)
 
 header 
   padding: 20px
