@@ -1,13 +1,17 @@
 <!-- Create a PHP page using functions for comparing three integers and print the largest number. -->
 
 <?php
-echo "<h1>FileName: " . pathinfo(__FILE__, PATHINFO_FILENAME) . ".php</h1></br></br>";
+$FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . ".php";
+echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 ?>
 
 
 <html>
 
 <head>
+	<title>
+		<?= $FILENAME ?>
+	</title>
 	<link rel="stylesheet" href="forPhp.css">
 </head>
 
