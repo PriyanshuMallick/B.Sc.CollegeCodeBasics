@@ -1,11 +1,12 @@
-// 1. Implement Insertion Sort (The program should report the number of
-// comparisons)
+// 1. Implement Insertion Sort (The program should report the number of comparisons)
 
-import java.util.Random;
+// Test run the algorithm on 100 different inputs of sizes varying from 30 to 1000.
+// Count the number of comparisons and draw the graph. Compare it with a graph of nlogn.
 
 public class $1_InsertionSort {
-    public static <T extends Comparable<T>> int insertionSort(T list[]) {
-        int comparisons = 0;
+    private static int comparisons = 0;
+
+    public static <T extends Comparable<T>> void insertionSort(T list[]) {
         for (int i = 1, len = list.length; i < len; i++) {
             int j;
             T tmp = list[i];
@@ -15,11 +16,9 @@ public class $1_InsertionSort {
             }
             list[j + 1] = tmp;
         }
-        return comparisons;
     }
 
     public static void main(String[] args) {
-        // Random rand = new Random();
         int testSize = 100;
         int listSize = 0;
 
@@ -29,15 +28,13 @@ public class $1_InsertionSort {
 
             for (int j = 0; j < listSize; j++)
                 list[j] = listSize - j;
-            // list[j] = rand.nextInt(100);
 
             // System.out.println("Unsorted list: ");
             // printList(list);
 
-            int comparisons = insertionSort(list);
+            insertionSort(list);
 
             System.out.println(i + 1 + ":\tList Size: " + listSize + "\t\tNo. of comparisons: " + comparisons);
-            // System.out.println("List Size ^ 2: " + listSize * listSize);
 
             // System.out.println("Sorted list: ");
             // printList(list);
