@@ -7,7 +7,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <link rel="stylesheet" href="forPhp.css">

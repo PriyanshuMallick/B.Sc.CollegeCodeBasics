@@ -2,7 +2,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <!DOCTYPE html>
@@ -29,6 +29,10 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <?php
 if (!isset($_POST['num'])) return;
 
+$num = (int)$_POST['num'];
+
+if ($num == null) return;
+
 function isPrime($num)
 {
     if ($num < 2) return false;
@@ -39,8 +43,6 @@ function isPrime($num)
             return false;
     return true;
 }
-
-$num = (int)$_POST['num'];
 
 echo "<div class='result'>"
     . $num . " is: ";

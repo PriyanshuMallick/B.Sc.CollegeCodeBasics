@@ -2,7 +2,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <head>
@@ -23,9 +23,11 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <?php
 if (!isset($_POST['values'])) return;
 
-$values = explode(" ", $_POST['values']);
+$values = $_POST['values'];
 
 if ($values == null) return;
+
+$values = explode(" ", $values);
 
 
 echo "<div class='result'>";

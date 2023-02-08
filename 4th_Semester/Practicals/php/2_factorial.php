@@ -2,7 +2,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <head>
@@ -23,15 +23,16 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <?php
 if (!isset($_POST['num'])) return;
 
+$num = (int)$_POST['num'];
+
+if ($num == null) return;
+
 function findFactorial($n1)
 {
     for ($i = $n1 - 1; $i > 1; $i--)
         $n1 *= $i;
     return $n1;
 }
-
-$num = (int)$_POST['num'];
-
 
 echo "<div class='result'>"
     . "The factorial of " . $num . " is: " . findFactorial($num)

@@ -1,12 +1,18 @@
 :root {
   --bg-color: #01121d;
   --form-bg-color: #071722;
+  --form-color: white;
 }
 
 body {
   background-color: var(--bg-color);
   text-align: center;
   color: #ccc;
+}
+
+header {
+  padding-top: 20px;
+  text-align: center;
 }
 
 input {
@@ -16,12 +22,12 @@ input {
   margin: 8px 15px;
   border: 2px solid #ccc;
   border-radius: 4px;
-  color: white;
+  color: var(--form-color);
 }
 
 input[type="submit"] {
   background-color: #4caf50;
-  color: white;
+  color: var(--form-color);
   padding: 14px 20px;
   border: none;
   cursor: pointer;
@@ -29,6 +35,16 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+select {
+  background-color: var(--form-bg-color);
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  color: var(--form-color);
 }
 
 .form-container {
@@ -43,4 +59,9 @@ input[type="submit"]:hover {
 .result {
   margin-top: 20px;
   font-size: 1.5em;
+}
+
+.dark {
+  background-color: var(--form-bg-color);
+  color: var(--form-color);
 }

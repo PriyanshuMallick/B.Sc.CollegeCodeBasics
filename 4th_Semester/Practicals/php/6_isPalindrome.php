@@ -2,7 +2,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <head>
@@ -23,6 +23,10 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <?php
 if (!isset($_POST['str'])) return;
 
+$str = (string)$_POST['str'];
+
+if ($str == null) return;
+
 function isPalindrome($str)
 {
     $str = strtolower(trim($str));
@@ -33,10 +37,6 @@ function isPalindrome($str)
     }
     return true;
 }
-
-$str = (string)$_POST['str'];
-
-if ($str == null) return;
 
 echo "<div class='result'>" . $str . " is ";
 echo isPalindrome($str) ? "" : "not";

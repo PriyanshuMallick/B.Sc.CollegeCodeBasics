@@ -2,7 +2,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <head>
@@ -12,7 +12,7 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <body>
     <div class="form-container">
         <form action="" method="post">
-            Enter an array of space-separated numbers: <input type="number[]" name="values" value="0"><br><br>
+            Enter an array of space-separated numbers: <input type="number[]" name="values"><br><br>
             <input type="submit" value="Submit">
         </form>
     </div>
@@ -23,9 +23,11 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 <?php
 if (!isset($_POST['values'])) return;
 
-$values = explode(" ", $_POST['values']);
+$values = $_POST['values'];
 
 if ($values == null) return;
+
+$values = explode(" ", $values);
 
 $sum = 0;
 foreach ($values as $value) {

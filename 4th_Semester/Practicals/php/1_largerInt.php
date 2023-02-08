@@ -2,7 +2,7 @@
 
 <?php
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
-echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
+echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 
@@ -30,7 +30,13 @@ echo "<h1>FileName: " . $FILENAME . "</h1></br></br>";
 
 <?php
 
-if (!isset($_POST['num1']) || !isset($_POST['num2']) || !isset($_POST['num3'])) exit;
+if (!isset($_POST['num1']) || !isset($_POST['num2']) || !isset($_POST['num3'])) return;
+
+$num1 = (int)$_POST['num1'];
+$num2 = (int)$_POST['num2'];
+$num3 = (int)$_POST['num3'];
+
+if ($n1 == null | $n2 == null | $n3 == null) return;
 
 function findLargest($n1, $n2, $n3)
 {
@@ -41,10 +47,6 @@ function findLargest($n1, $n2, $n3)
 	else
 		return $n3;
 }
-
-$num1 = (int)$_POST['num1'];
-$num2 = (int)$_POST['num2'];
-$num3 = (int)$_POST['num3'];
 
 $largest = findLargest($num1, $num2, $num3);
 

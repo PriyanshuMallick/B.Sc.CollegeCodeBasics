@@ -25,7 +25,13 @@
 
 12. Create a simple 'birthday countdown' script, the script will count the number of days between current day and birth day.
 
-13. Create a script to construct the following pattern, using nested for loop.<br> \*<br> \* \*<br> \* \* \*<br> \* \* \* \*<br> \* \* \* \* \*<br>
+13. Create a script to construct the following pattern, using nested for loop.<br>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \*<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \* \*<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \* \* \*<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \* \* \* \*<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \* \* \* \* \*<br>
 
 14. Write a simple PHP program to check that emails are valid.
 
@@ -36,7 +42,7 @@
     Output : white, green, red,
     •green • red
     • white
-17. Using switch case and dropdown list display a ―Helloǁ message depending on the language selected in drop down list.
+17. Using switch case and dropdown list display a Hello message depending on the language selected in drop down list.
 
 18. Write a PHP program to print Fibonacci series using recursion.
 
