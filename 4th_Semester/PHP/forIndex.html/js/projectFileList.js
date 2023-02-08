@@ -82,11 +82,15 @@ export const projectFiles = [
     description: "Prints first n even numbers",
     link: BASE + "15_printEven.php",
   },
-  // {
-  //   name: "",
-  //   description: "",
-  //   link: BASE + "",
-  // },
+  {
+    name: "Color List",
+    description:
+      "It display the colors in the following way :" +
+      "<br> • white" +
+      "<br> • green" +
+      "<br> • red",
+    link: BASE + "16_colorList.php",
+  },
   {
     name: "Hello",
     description:

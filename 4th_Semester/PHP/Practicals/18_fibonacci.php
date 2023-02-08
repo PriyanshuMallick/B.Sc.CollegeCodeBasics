@@ -6,7 +6,7 @@ echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <head>
-    <link rel="stylesheet" href="forPhp.css">
+    <link rel="stylesheet" href="Extras/forPhp.css">
 </head>
 
 <body>
@@ -14,7 +14,7 @@ echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
         <form action="" method="post">
             How many number of Fibonacci do you wanna see?
             </br></br>
-            <input type="number" min="1" name="limit"><br><br>
+            <input type="number" min="1" max="40" name="limit"><br><br>
             <input type="submit" value="Submit">
         </form>
     </div>

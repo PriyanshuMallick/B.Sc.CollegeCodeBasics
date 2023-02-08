@@ -1,7 +1,11 @@
 :root
   --accent-color-1: rgba(187, 156, 96, 1)
+  --scrollbar-color: #bb9d6036
+  --scrollbar-color-hover: var(--accent-color-1)
   --accent-color-2: #bb6b60
   --bg-gradient: linear-gradient(180deg, #1F1D29 0%, #16121E)
+  --table-bg-gradient: linear-gradient(180deg, #1a1825 0%, #161724 41.15%)
+  --row-color-hover: #18384e
   
 body
   // background: linear-gradient(180deg, #1F1D29 0%, #16121E 41.15%)
@@ -16,11 +20,11 @@ body
     width: .3em
 
   &::-webkit-scrollbar-thumb
-    background-color:  #bb9d6036
+    background-color:  var(--scrollbar-color)
     border-radius: 25px
 
     &:hover
-      background: var(--accent-color-1)
+      background: var(--scrollbar-color-hover)
 
 header 
   padding: 20px
@@ -38,7 +42,7 @@ h1
 
 .grid 
   display: grid
-  background: linear-gradient(180deg, #1a1825 0%, #161724 41.15%)
+  background: var(--table-bg-gradient)
   margin-top: 20px
   border-radius: 20px
   overflow: hidden
@@ -48,28 +52,24 @@ h1
   grid-column: auto
   grid-template-columns: 1fr 3fr 1fr
   transition: .17s
-  // column-gap: 5px
 
   &:hover
-    background: #18384e
+    background: var(--row-color-hover)
     
 .grid-header 
   font-weight: bold
   &:hover
-    background: #18384e00
+    background: none
 
 .head-divider
   background-color: var(--accent-color-1)
   height: 2px
   width: 95%
   margin: 0 auto
-  // margin-top: 7px
   margin-bottom: 15px 
   border-radius: 2px 
 
 .grid-cell 
-  // display: inline
-  // justify-content: center
   grid-column: auto
   padding: 20px
   text-align: center

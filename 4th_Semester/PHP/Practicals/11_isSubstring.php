@@ -6,7 +6,7 @@ echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
 <head>
-    <link rel="stylesheet" href="forPhp.css">
+    <link rel="stylesheet" href="Extras/forPhp.css">
 </head>
 
 <body>

@@ -37,11 +37,12 @@
 
 15. WAP to print first n even numbers.
 
-16. $color = array('white', 'green', 'red'')
+16. $color = array('white', 'green', 'red')
     Write a PHP script which will display the colors in the following way :
     Output : white, green, red,
-    •green • red
     • white
+    • green
+    • red
 17. Using switch case and dropdown list display a Hello message depending on the language selected in drop down list.
 
 18. Write a PHP program to print Fibonacci series using recursion.

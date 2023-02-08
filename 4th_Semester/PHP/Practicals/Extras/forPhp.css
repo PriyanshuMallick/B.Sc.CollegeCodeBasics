@@ -1,7 +1,10 @@
 :root {
   --bg-color: #01121d;
   --form-bg-color: #071722;
-  --form-color: white;
+  --form-input-color: white;
+  --text-color: #ccc;
+  --green: #4caf50;
+  --green-hover: #4caf50;
 }
 
 body {
@@ -20,21 +23,20 @@ input {
   width: 50%;
   padding: 12px 20px;
   margin: 8px 15px;
-  border: 2px solid #ccc;
+  border: 2px solid var(--text-color);
   border-radius: 4px;
-  color: var(--form-color);
+  color: var(--form-input-color);
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
-  color: var(--form-color);
+  background-color: var(--green);
   padding: 14px 20px;
   border: none;
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: var(--green-hover);
 }
 
 select {
@@ -42,16 +44,16 @@ select {
   width: 50%;
   padding: 12px 20px;
   margin: 8px 15px;
-  border: 2px solid #ccc;
+  border: 2px solid var(--text-color);
   border-radius: 4px;
-  color: var(--form-color);
+  color: var(--form-input-color);
 }
 
 .form-container {
   width: 50%;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--text-color);
   border-radius: 5px;
   background-color: var(--form-bg-color);
 }
@@ -63,5 +65,5 @@ select {
 
 .dark {
   background-color: var(--form-bg-color);
-  color: var(--form-color);
+  color: var(--form-input-color);
 }

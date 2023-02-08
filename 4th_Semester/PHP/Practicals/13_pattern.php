@@ -10,7 +10,7 @@ $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PAT
 echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
 
-<link rel="stylesheet" href="forPhp.css">
+<link rel="stylesheet" href="Extras/forPhp.css">
 
 <?php
 echo "<div class='form-container'>";
