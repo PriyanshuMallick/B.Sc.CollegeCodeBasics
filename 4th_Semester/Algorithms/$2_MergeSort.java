@@ -77,4 +77,11 @@ public class $2_MergeSort {
             // printList(list);
         }
     }
+
+    public static <T> void printList(T list[]) {
+        int len = list.length;
+        for (int i = 0; i < len - 1; i++)
+            System.out.print(list[i] + " -> ");
+        System.out.println(list[len - 1]);
+    }
 }
