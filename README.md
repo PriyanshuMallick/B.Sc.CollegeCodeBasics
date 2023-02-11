@@ -12,6 +12,14 @@ Here I am uploading all the codes that are either given as practical projects in
 
 - [1st Semester](1st_Semester/Syllabus_for_1st_Semester.md)
 - [2nd Semester](2nd_Semester/Syllabus_for_2nd_Semester.md)
+- [3rd Semester](3rd_Semester/)
+  : [DS](3rd_Semester/Syllabus_for_2nd_Semester_DS.md)
+  // [Networks](3rd_Semester/Syllabus_for_2nd_Semester_Networks.md)
+  // [OS](3rd_Semester/Syllabus_for_2nd_Semester_OS.md)
+  // [Shell](3rd_Semester/Syllabus_for_2nd_Semester_Shell.md)
+- [4th Semester](4th_Semester/)
+  : [Algorithms](4th_Semester/Syllabus_for_2nd_Semester_Algorithms.md)
+  // [PHP](4th_Semester/Syllabus_for_2nd_Semester_PHP.md)
 
 <br/><br/>
 
