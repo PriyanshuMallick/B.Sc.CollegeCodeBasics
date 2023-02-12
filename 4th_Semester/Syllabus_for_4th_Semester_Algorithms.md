@@ -2,9 +2,15 @@
 
 1. Implement Insertion Sort (The program should report the number of comparisons)
 
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$1_InsertionSort.java)
+
 2. Implement Merge Sort(The program should report the number of comparisons)
 
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$1_MergeSort.java)
+
 3. Implement Heap Sort(The program should report the number of comparisons)
+
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$3_HeapSort.java)
 
 4. Implement Randomized Quick sort (The program should report the number of comparisons)
 
