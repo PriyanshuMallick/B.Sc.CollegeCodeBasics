@@ -29,6 +29,6 @@ if ($str == null) return;
 
 echo "<div class='result'>"
     . "All the characters of ' " . $str . " ' are ";
-echo ctype_lower(trim($str)) ? "" : "not";
+echo ctype_lower($str) ? "" : "not";
 echo " lowercase" . "</div>";
 ?>
