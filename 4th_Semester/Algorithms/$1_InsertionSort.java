@@ -10,7 +10,7 @@ public class $1_InsertionSort {
         for (int i = 1, len = list.length; i < len; i++) {
             int j;
             T tmp = list[i];
-            comparisons++;
+            // comparisons++;
             for (j = i - 1; j > -1 && tmp.compareTo(list[j]) < 0; j--, comparisons++) {
                 list[j + 1] = list[j];
             }
