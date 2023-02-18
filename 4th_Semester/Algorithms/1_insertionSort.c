@@ -5,7 +5,7 @@ void insetionSort(int arr[], int len);
 void printarr(int arr[], int len);
 
 // Global Var
-int comparision = 0;
+int comparisons = 0;
 
 int main()
 {
@@ -30,23 +30,23 @@ int main()
         // printf("Sorted:\n");
         // printarr(arr, arrsize);
 
-        // printf("Comparision: %d\n", comparision);
+        // printf("Comparisons: %d\n", comparisons);
 
-        printf("%d:\tList Size: %d\t\tNo. of comparisons: %d\n", i + 1, arrsize, comparision);
+        printf("%d:\tArray Size: %d\t\tNo. of comparisons: %d\n", i + 1, arrsize, comparisons);
     }
     return 0;
 }
 
 void insetionSort(int arr[], int len)
 {
-    comparision = 0;
+    comparisons = 0;
 
     for (int i = 1; i < len; i++)
     {
         int j;
         int tmp = arr[i];
         // comparision++;
-        for (j = i - 1; j > -1 && arr[j] > tmp; j--, comparision++)
+        for (j = i - 1; j > -1 && arr[j] > tmp; j--, comparisons++)
         {
             arr[j + 1] = arr[j];
         }
