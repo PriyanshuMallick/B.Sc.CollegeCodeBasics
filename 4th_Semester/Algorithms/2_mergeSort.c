@@ -19,9 +19,9 @@ int main()
         arrSize += 10;
         int arr[arrSize];
 
-        for (int i = 0; i < arrSize; i++)
+        for (int j = 0; j < arrSize; j++)
         {
-            arr[i] = arrSize - i;
+            arr[j] = arrSize - j;
         }
 
         // printf("Unsorted:\n");
