@@ -1,3 +1,8 @@
+// 2. Implement Merge Sort(The program should report the number of comparisons)
+
+// Test run the algorithm on 100 different inputs of sizes varying from 30 to 1000.
+// Count the number of comparisons and draw the graph. Compare it with a graph of nlogn.
+
 #include <stdio.h>
 
 // Prototypes
