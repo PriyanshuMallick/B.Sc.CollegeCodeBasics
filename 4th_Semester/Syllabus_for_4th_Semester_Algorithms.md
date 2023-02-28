@@ -12,7 +12,7 @@
 
 3. Implement Heap Sort(The program should report the number of comparisons)
 
-<!-- - [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$3_HeapSort.java) -->
+<!-- - [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/3_heapSort.c) -->
 
 - [Click me to Navigate to the Java file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$3_HeapSort.java)
 
