@@ -27,7 +27,7 @@ public class $3_HeapSort {
         }
     }
 
-    public static <T extends Comparable<T>> int heapSort(T[] list) {
+    public static <T extends Comparable<T>> void heapSort(T[] list) {
         int n = list.length;
         comparisons = 0;
 
@@ -42,8 +42,6 @@ public class $3_HeapSort {
 
             heapify(list, i, 0);
         }
-
-        return comparisons;
     }
 
     public static void main(String[] args) {
