@@ -7,7 +7,7 @@
 
 2. Write a program using templates to sort a list of elements. Give user the option to perform sorting using Insertion sort, Bubble sort or Selection sort.
 
-- [Click me to Navigate to the file]()
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/tree/main/3rd_Semester/DS_in_JAVA/Practicals/$2_Sort.java)
   <br><br>
 
 3. Implement Linked List using templates. Include functions for insertion, deletion and search of a number, reverse the list and concatenate two linked lists (include a function and also overload operator +).
