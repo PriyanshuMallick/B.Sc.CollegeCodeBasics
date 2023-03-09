@@ -52,7 +52,7 @@
 
 25. Query to display Name, Job, Department No. And Department Name for all the employees working at the Dallas location.
 
-26. Query to display Name and Employee no. Along with their Manger's Name and the Manager's employee no; along with the Employees 'Name who do not have a anager.
+26. Query to display Name and Employee no. Along with their Manger's Name and the Manager's employee no; along with the Employees 'Name who do not have a manager.
 
 27. Query to display Name, Dept No. And Salary of any employee whose department No. and salary matches both the department no. And the salary of any employee who earns a commission.
 
