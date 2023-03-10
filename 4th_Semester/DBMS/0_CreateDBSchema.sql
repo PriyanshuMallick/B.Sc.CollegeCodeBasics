@@ -1,0 +1,25 @@
+-- Create and use the following database schemas to answer the given queries.
+CREATE DATABASE IF NOT EXISTS BSC_Practicals;
+
+USE BSC_Practicals;
+
+CREATE TABLE IF NOT EXISTS EMPLOYEE(
+    Eno CHAR(3) NOT NULL PRIMARY KEY,
+    Ename VARCHAR(50) NOT NULL,
+    Job_type VARCHAR(50) NOT NULL,
+    Manager CHAR(3) DEFAULT NULL,
+    Hire_date DATE NOT NULL,
+    Dno INTEGER DEFAULT NULL,
+    Commission DECIMAL(10, 2) DEFAULT NULL,
+    Salary DECIMAL(7, 2) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS DEPARTMENT(
+    Dno INTEGER NOT NULL PRIMARY KEY,
+    Dname VARCHAR(50),
+    Location VARCHAR(50) DEFAULT 'New Delhi'
+);
+
+ALTER TABLE EMPLOYEE
+ADD CONSTRAINT fk_employee_department FOREIGN KEY (Dno) REFERENCES DEPARTMENT(Dno),
+ADD CONSTRAINT fk_employee_manager FOREIGN KEY (Manager) REFERENCES EMPLOYEE(Eno);
