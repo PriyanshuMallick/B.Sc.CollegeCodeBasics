@@ -36,6 +36,7 @@ INSERT INTO EMPLOYEE VALUES
 ('024', 'Rahul Shah', 'Budget Analyst', '005', '2022-05-01', 105, 1800.00, 70000.00),
 ('025', 'Priya Sharma', 'Security Analyst', '004', '2022-03-01', 104, 2000.00, 90000.00),
 ('026', 'Saurabh Singh', 'System Administrator', '004', '2022-04-01', 104, 2000.00, 55000.00);
+('027', 'Manish Singh', 'System Administrator', NULL, '2022-04-01', 104, 2000.00, 55000.00);
 
 
 
