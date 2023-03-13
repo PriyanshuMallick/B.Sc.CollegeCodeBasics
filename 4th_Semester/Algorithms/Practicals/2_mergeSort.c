@@ -31,7 +31,7 @@ int main()
 
         // printf("Unsorted:\n");
         // printarr(arr, arrSize);
-
+        comparisons = 0;
         mergeSort(arr, 0, arrSize - 1);
 
         // printf("Sorted:\n");

@@ -2,21 +2,22 @@
 
 1. Implement Insertion Sort (The program should report the number of comparisons)
 
-- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/1_insertionSort.c)
+- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/1_insertionSort.c)
 - [Click me to Navigate to the Java file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$1_InsertionSort.java)
 
 2. Implement Merge Sort(The program should report the number of comparisons)
 
-- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/1_mergeSort.c)
-- [Click me to Navigate to the Java file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$1_MergeSort.java)
+- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/1_mergeSort.c)
+- [Click me to Navigate to the Java file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/$1_MergeSort.java)
 
 3. Implement Heap Sort(The program should report the number of comparisons)
 
-<!-- - [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/3_heapSort.c) -->
-
-- [Click me to Navigate to the Java file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/$3_HeapSort.java)
+- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/3_heapSort.c)
+- [Click me to Navigate to the Java file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/$3_HeapSort.java)
 
 4. Implement Randomized Quick sort (The program should report the number of comparisons)
+
+- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/4_randomizeQuickSort.c)
 
 5. Implement Radix Sort
 

@@ -45,7 +45,7 @@ void insetionSort(int arr[], int len)
     {
         int j;
         int tmp = arr[i];
-        // comparision++;
+        // comparisons++;
         for (j = i - 1; j > -1 && arr[j] > tmp; j--, comparisons++)
         {
             arr[j + 1] = arr[j];
