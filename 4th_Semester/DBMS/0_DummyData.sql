@@ -21,6 +21,7 @@ INSERT INTO EMPLOYEE VALUES
 ('008', 'Sakshi Chauhan', 'Designer', '003', '2021-06-01', 103, 2000.00, 50000.00),
 ('009', 'Ankur Verma', 'Developer', '001', '2021-07-01', 101, 2200.00, 52000.00),
 ('010', 'Priyanka Singh', 'Marketing Lead', '002', '2021-08-01', 102, 2800.00, 58000.00),
+('011', 'Manish Singh', 'System Administrator', NULL, '2022-04-01', 104, 2000.00, 55000.00);
 ('012', 'Jatin Verma', 'QA Engineer', '001', '2021-10-01', 101, 1800.00, 45000.00),
 ('013', 'Saurabh Singh', 'Designer', '003', '2021-11-01', 103, 2300.00, 53000.00),
 ('014', 'Aarti Sharma', 'Developer', '001', '2021-12-01', 101, 1900.00, 48000.00),
@@ -36,7 +37,6 @@ INSERT INTO EMPLOYEE VALUES
 ('024', 'Rahul Shah', 'Budget Analyst', '005', '2022-05-01', 105, 1800.00, 70000.00),
 ('025', 'Priya Sharma', 'Security Analyst', '004', '2022-03-01', 104, 2000.00, 90000.00),
 ('026', 'Saurabh Singh', 'System Administrator', '004', '2022-04-01', 104, 2000.00, 55000.00);
-('027', 'Manish Singh', 'System Administrator', NULL, '2022-04-01', 104, 2000.00, 55000.00);
 
 
 
