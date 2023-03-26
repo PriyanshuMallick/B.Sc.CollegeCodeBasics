@@ -25,7 +25,7 @@ To get an idea of what topics are covered in each semester of the B.Sc. in Compu
   - [Shell Programming](3rd_Semester/Syllabus_for_3rd_Semester_Shell.md) </i>🐚<i>
 - [4th Semester](4th_Semester/)
   - [Algorithms](4th_Semester/Syllabus_for_4th_Semester_Algorithms.md) </i>🤖<i>
-  - [PHP](4th_Semester/Syllabus_for_4th_Semester_PHP.md) </i>☕<i>
+  - [PHP](4th_Semester/Syllabus_for_4th_Semester_PHP.md) </i>🐘<i>
       <!-- - [DBMS]() </i>🗃️<i> -->
     <!-- - [5th Semester](5th_Semester/) -->
       <!-- - [Internet Technologies]() </i>🌐<i> -->
