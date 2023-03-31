@@ -66,7 +66,7 @@
 
 32. Query to display the Department Name, Location Name, No. of Employees and the average salary for all employees in that department.
 
-33. Query to display Name and Hire Date for all employees in the same dept. as Blake.
+33. Query to display Name and Hire Date for all employees in the same dept. as Ankur.
 
 34. Query to display the Employee No. And Name for all employees who earn more than the average salary.
 
