@@ -72,6 +72,6 @@
 
 35. Query to display Employee Number and Name for all employees who work in a department with any employee whose name contains a 'T'.
 
-36. Query to display the names and salaries of all employees who report to King.
+36. Query to display the names and salaries of all employees who report to Divya Mishra.
 
-37. Query to display the department no, name and job for all employees in the Sales department.
+37. Query to display the department no, name and job for all employees in the Development department.
