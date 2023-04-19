@@ -36,7 +36,7 @@ $num1 = (int)$_POST['num1'];
 $num2 = (int)$_POST['num2'];
 $num3 = (int)$_POST['num3'];
 
-if ($n1 == null | $n2 == null | $n3 == null) return;
+if ($num1 == null || $num2 == null || $num3 == null) return;
 
 function findLargest($n1, $n2, $n3)
 {
