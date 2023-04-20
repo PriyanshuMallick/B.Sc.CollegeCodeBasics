@@ -1,4 +1,5 @@
 1st_Semester\LogiSim
 test*
 .*
-*.class *.exe
+*.class 
+*.exe
