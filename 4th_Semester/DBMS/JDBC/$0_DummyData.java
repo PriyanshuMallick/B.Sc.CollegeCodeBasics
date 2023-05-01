@@ -12,21 +12,21 @@ public class $0_DummyData {
                 Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
                 Statement stmt = conn.createStatement()) {
 
-            // // Adding data to Department Table
+            // Adding data to Department Table
 
-            // String sql = "INSERT INTO DEPARTMENT VALUES"
-            // + "(101, 'Development', 'Mumbai'),"
-            // + "(102, 'Marketing', 'Bangalore'),"
-            // + "(103, 'Design', 'New Delhi'),"
-            // + "(104, 'IT Operations', 'Hyderabad'),"
-            // + "(105, 'Finance', 'Chennai')";
-            // stmt.executeUpdate(sql);
+            String sql = "INSERT INTO DEPARTMENT VALUES"
+                    + "(101, 'Development', 'Mumbai'),"
+                    + "(102, 'Marketing', 'Bangalore'),"
+                    + "(103, 'Design', 'New Delhi'),"
+                    + "(104, 'IT Operations', 'Hyderabad'),"
+                    + "(105, 'Finance', 'Chennai')";
+            stmt.executeUpdate(sql);
 
-            // System.out.println("Departments data added");
+            System.out.println("Departments data added");
 
             // Adding data to Employee Table
 
-            String sql = "INSERT INTO EMPLOYEE VALUES"
+            sql = "INSERT INTO EMPLOYEE VALUES"
                     // Managers
                     + "('001', 'Manish Gupta', 'Development Manager', '001', '2020-01-01', 101, 4000.00, 80000.00),"
                     + "('002', 'Vikram Sharma', 'Marketing Manager', '002', '2020-09-01', 102, 4000.00, 80000.00),"
