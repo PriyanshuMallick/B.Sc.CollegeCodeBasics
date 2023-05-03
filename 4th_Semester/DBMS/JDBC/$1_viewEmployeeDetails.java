@@ -1,3 +1,6 @@
+// 1. Query to display Employee Name, Job, Hire Date, Employee Number;
+// for each employee with the Employee Number appearing first.
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
