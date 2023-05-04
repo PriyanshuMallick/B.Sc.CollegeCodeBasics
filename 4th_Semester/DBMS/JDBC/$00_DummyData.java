@@ -2,7 +2,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class $0_DummyData {
+public class $00_DummyData {
     public static void main(String[] args) {
         String DB_URL = "jdbc:mysql://localhost:3306/BSC_Practicals_JDBC";
         String USER = "root";

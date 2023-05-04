@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class $2_uniqueJobs {
+public class $02_uniqueJobs {
     public static void main(String[] args) {
         String DB_URL = "jdbc:mysql://localhost:3306/BSC_Practicals_JDBC";
         String USER = "root";

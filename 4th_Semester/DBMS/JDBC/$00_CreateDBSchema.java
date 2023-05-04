@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class $0_CreateDBSchema {
+public class $00_CreateDBSchema {
     public static void main(String[] args) {
         String DB_URL = "jdbc:mysql://localhost:3306/";
         String USER = "root";
