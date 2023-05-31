@@ -87,7 +87,9 @@ void heapify(int arr[], int len, int i)
 
 void swap(int *a, int *b)
 {
-    *a ^= *b ^= *a ^= *b;
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
 
 void printarr(int arr[], int len)
