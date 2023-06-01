@@ -32,17 +32,17 @@ public class $2_Sort {
 
     private static <T extends Comparable<T>> void insertionSort(T list[]) {
         int len = list.length;
-        T tmp;
+        T key;
         int j;
 
         for (int i = 1; i < len; i++) {
-            tmp = list[i];
+            key = list[i];
             j = i - 1;
             while (list[i].compareTo(list[j]) < 0) {
                 list[j + 1] = list[j];
                 j--;
             }
-            list[j + 1] = tmp;
+            list[j + 1] = key;
         }
     }
 
