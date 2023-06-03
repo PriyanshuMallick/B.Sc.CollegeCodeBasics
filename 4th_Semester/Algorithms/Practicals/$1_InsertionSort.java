@@ -1,4 +1,3 @@
-package Practicals;
 // 1. Implement Insertion Sort (The program should report the number of comparisons)
 
 // Test run the algorithm on 100 different inputs of sizes varying from 30 to 1000.
