@@ -1,7 +1,12 @@
+// 1. Implement Insertion Sort (The program should report the number of comparisons)
+
+// Test run the algorithm on 100 different inputs of sizes varying from 30 to 1000.
+// Count the number of comparisons and draw the graph. Compare it with a graph of nlogn.
+
 #include <stdio.h>
 
 // Funtion Prototypes
-void insetionSort(int arr[], int len);
+void insertionSort(int arr[], int len);
 void printarr(int arr[], int len);
 
 // Global Var
@@ -25,7 +30,7 @@ int main()
         // printf("Unsorted:\n");
         // printarr(arr, arrsize);
 
-        insetionSort(arr, arrsize);
+        insertionSort(arr, arrsize);
 
         // printf("Sorted:\n");
         // printarr(arr, arrsize);
@@ -37,20 +42,20 @@ int main()
     return 0;
 }
 
-void insetionSort(int arr[], int len)
+void insertionSort(int arr[], int len)
 {
     comparisons = 0;
 
     for (int i = 1; i < len; i++)
     {
         int j;
-        int tmp = arr[i];
+        int key = arr[i];
         // comparisons++;
-        for (j = i - 1; j > -1 && arr[j] > tmp; j--, comparisons++)
+        for (j = i - 1; j >= 0 && arr[j] > key; j--, comparisons++)
         {
             arr[j + 1] = arr[j];
         }
-        arr[j + 1] = tmp;
+        arr[j + 1] = key;
     }
 }
 
