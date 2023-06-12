@@ -1,3 +1,5 @@
+// Implement Randomized Quick sort (The program should report the number of comparisons)
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
