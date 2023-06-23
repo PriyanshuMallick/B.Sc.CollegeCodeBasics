@@ -1,4 +1,3 @@
-package Practicals;
 // 3. Implement Heap Sort(The program should report the number of comparisons)
 
 public class $3_HeapSort {
