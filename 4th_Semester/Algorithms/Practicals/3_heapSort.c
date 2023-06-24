@@ -29,16 +29,16 @@ int main()
             arr[j] = arrSize - j;
         }
 
-        printf("Unsorted:\n");
-        printarr(arr, arrSize);
+        // printf("Unsorted:\n");
+        // printarr(arr, arrSize);
 
         heapSort(arr, arrSize);
 
-        printf("Sorted:\n");
-        printarr(arr, arrSize);
+        // printf("Sorted:\n");
+        // printarr(arr, arrSize);
 
-        printf("Comparisons: %d\n", comparisons);
-        // printf("%d:\tArray Size: %d\t\tNo. of comparisons: %d\n", i + 1, arrSize, comparisons);
+        // printf("Comparisons: %d\n", comparisons);
+        printf("%d:\tArray Size: %d\t\tNo. of comparisons: %d\n", i + 1, arrSize, comparisons);
     }
 
     return 0;
