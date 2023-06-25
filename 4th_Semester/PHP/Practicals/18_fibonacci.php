@@ -4,22 +4,21 @@
 $FILENAME = pathinfo(__FILE__, PATHINFO_FILENAME) . "." . pathinfo(__FILE__, PATHINFO_EXTENSION);
 echo "<header><h1>FileName: " . $FILENAME . "</h1></header></br></br>";
 ?>
+<html>
+    <head>
+        <link rel="stylesheet" href="Extras/forPhp.css">
+    </head>
 
-<head>
-    <link rel="stylesheet" href="Extras/forPhp.css">
-</head>
-
-<body>
-    <div class="form-container">
-        <form action="" method="post">
-            How many number of Fibonacci do you wanna see?
-            </br></br>
-            <input type="number" min="1" max="40" name="limit"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-</body>
-
+    <body>
+        <div class="form-container">
+            <form action="" method="post">
+                How many number of Fibonacci do you wanna see?
+                </br></br>
+                <input type="number" min="1" max="40" name="limit"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
 </html>
 
 <?php
