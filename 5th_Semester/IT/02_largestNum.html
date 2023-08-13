@@ -1,0 +1,56 @@
+<!-- 2. Print the largest of three numbers. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the Largest Number</title>
+    <link rel="stylesheet" href="Extra/style.css" />
+  </head>
+  <body>
+    <h1>Find The Largest Number</h1>
+    <div class="form-container">
+      <form>
+        Enter first number:
+        <input id="num1" type="number" name="num1" /><br /><br />
+        Enter second number:
+        <input id="num2" type="number" name="num2" /><br /><br />
+        Enter third number:
+        <input id="num3" type="number" name="num3" /><br /><br />
+
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <div></div>
+  </body>
+
+  <script>
+    const submit = document.getElementById("submit");
+
+    const result = document.getElementById("result");
+
+    submit.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const num1 = document.getElementById("num1").valueAsNumber;
+      const num2 = document.getElementById("num2").valueAsNumber;
+      const num3 = document.getElementById("num3").valueAsNumber;
+
+      result.innerText = `Largest number is ${findLargest(num1, num2, num3)}`;
+    });
+
+    function findLargest(num1, num2, num3) {
+      if (num1 > num2 && num1 > num3) {
+        return num1;
+      }
+      if (num1 < num2 && num2 > num3) {
+        return num2;
+      }
+      return num3;
+    }
+  </script>
+</html>
