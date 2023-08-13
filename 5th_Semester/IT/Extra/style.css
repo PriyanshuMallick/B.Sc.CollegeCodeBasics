@@ -1,0 +1,74 @@
+:root {
+  --bg-color: #01121d;
+  --form-bg-color: #071722;
+  --form-input-color: white;
+  --text-color: #ccc;
+  --green: #4caf50;
+  --green-hover: #3c8a3f;
+}
+
+body {
+  background-color: var(--bg-color);
+  text-align: center;
+  color: #ccc;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+input {
+  background-color: var(--form-bg-color);
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 15px;
+  border: 2px solid var(--text-color);
+  border-radius: 4px;
+  color: var(--form-input-color);
+}
+
+input[type="submit"] {
+  background-color: var(--green);
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--green-hover);
+}
+
+select {
+  background-color: var(--form-bg-color);
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 15px;
+  border: 2px solid var(--text-color);
+  border-radius: 4px;
+  color: var(--form-input-color);
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  background-color: var(--form-bg-color);
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.dark {
+  background-color: var(--form-bg-color);
+  color: var(--form-input-color);
+}
