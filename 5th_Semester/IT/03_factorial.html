@@ -1,0 +1,45 @@
+<!-- 3. Find the factorial of a number n. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the Largest Number</title>
+    <link rel="stylesheet" href="Extra/style.css" />
+  </head>
+  <body>
+    <h1>Find The Largest Number</h1>
+    <div class="form-container">
+      <form>
+        Enter first number:
+        <input id="num" type="number" name="num1" /><br /><br />
+
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div id="result" class="result"></div>
+
+    <div></div>
+  </body>
+
+  <script>
+    const submit = document.getElementById("submit");
+
+    const result = document.getElementById("result");
+
+    submit.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      const num = document.getElementById("num").valueAsNumber;
+
+      result.innerText = `Factorial of ${num} is ${findFactorial(num)}`;
+    });
+
+    function findFactorial(num) {
+      if (num < 2) return num;
+      return num * findFactorial(num - 1);
+    }
+  </script>
+</html>
