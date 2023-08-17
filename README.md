@@ -26,10 +26,10 @@ To get an idea of what topics are covered in each semester of the B.Sc. in Compu
 - [4th Semester](4th_Semester/)
   - [Algorithms](4th_Semester/Syllabus_for_4th_Semester_Algorithms.md) </i>🤖<i>
   - [PHP](4th_Semester/Syllabus_for_4th_Semester_PHP.md) </i>🐘<i>
-      <!-- - [DBMS]() </i>🗃️<i> -->
-    <!-- - [5th Semester](5th_Semester/) -->
-      <!-- - [Internet Technologies]() </i>🌐<i> -->
-      <!-- - [Microprocessor]() </i>🔬<i> -->
+  - [DBMS](4th_Semester/Syllabus_for_4th_Semester_DBMS.md) </i>🗃️<i>
+- [5th Semester](5th_Semester/)
+  - [Internet Technologies](5th_Semester/Syllabus_for_5th_Semester_Internet_Technologies.md) </i>🌐<i>
+  - [Microprocessor](5th_Semester/Syllabus_for_5th_Semester_Microprocessor.md) </i>🔬<i>
     <!-- - [6th Semester](6th_Semester/) -->
       <!-- - [Artificial Intelligence]() </i>🤖<i> -->
       <!-- - [Computer Graphics]() </i>🎨<i> -->
