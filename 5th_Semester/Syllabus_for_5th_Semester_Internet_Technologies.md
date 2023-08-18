@@ -6,11 +6,11 @@
 
 2. Print the largest of three numbers.
 
-<!-- - [Click me to Navigate to the file]() -->
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/5th_Semester/IT/02_largestNum.html)
 
 3. Find the factorial of a number n.
 
-<!-- - [Click me to Navigate to the file]() -->
+- [Click me to Navigate to the file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/5th_Semester/IT/03_factorial.html)
 
 4. Enter a list of positive numbers terminated by Zero. Find the sum and average of these numbers.
 
