@@ -19,19 +19,21 @@
 
 - [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/4_randomizeQuickSort.c)
 
-5. Implement Radix Sort
+1. Implement Radix Sort
 
-6. Create a Red-Black Tree and perform following operations on it:
+- [Click me to Navigate to the C file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/Algorithms/Practicals/5_radixSort.c)
+
+2. Create a Red-Black Tree and perform following operations on it:
    i. Insert a node
    ii. Delete a node
    iii. Search for a number & also report the color of the node containing this number.
 
-7. Write a program to determine the LCS of two given sequences
+3. Write a program to determine the LCS of two given sequences
 
-8. Implement Breadth-First Search in a graph
+4. Implement Breadth-First Search in a graph
 
-9. Implement Depth-First Search in a graph
+5. Implement Depth-First Search in a graph
 
-10. Write a program to determine the minimum spanning tree of a graph
+6. Write a program to determine the minimum spanning tree of a graph
 
-    For the algorithms at S.No 1 to 3 test run the algorithm on 100 different inputs of sizes varying from 30 to 1000. Count the number of comparisons and draw the graph. Compare it with a graph of nlogn.
+   For the algorithms at S.No 1 to 3 test run the algorithm on 100 different inputs of sizes varying from 30 to 1000. Count the number of comparisons and draw the graph. Compare it with a graph of nlogn.
