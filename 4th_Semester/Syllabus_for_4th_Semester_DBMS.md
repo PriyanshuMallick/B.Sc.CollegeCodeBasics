@@ -4,6 +4,9 @@
 
 1. Query to display Employee Name, Job, Hire Date, Employee Number; for each employee with the Employee Number appearing first.
 
+- [Click me to Navigate to the SQL file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/DBMS/sql/1_viewEmployeeDetails.sql)
+- [Click me to Navigate to the JDBC file](https://github.com/PriyanshuMallick/B.Sc.CollegeCodeBasics/blob/main/4th_Semester/DBMS/JDBC/$01_viewEmployeeDetails.java)
+
 2. Query to display unique Jobs from the Employee Table.
 
 3. Query to display the Employee Name concatenated by a Job separated by a comma.
