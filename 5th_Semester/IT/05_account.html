@@ -1,0 +1,78 @@
+<!-- 5. A person deposits Rs 1000 in a fixed account yielding 5% interest. Compute the amount 
+in the account at the end of each year for n years. Read n numbers. Count the number of 
+negative numbers, positive numbers and zeros in the list.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event-Driven Program</title>
+  </head>
+  <body>
+    <script>
+      // Function to calculate the amount in the account and count numbers
+      function calculateAmountAndCountNumbers(years) {
+        var deposit = 1000;
+        var interestRate = 0.05;
+
+        var amount = deposit;
+        var negativeCount = 0;
+        var positiveCount = 0;
+        var zeroCount = 0;
+
+        for (var i = 1; i <= years; i++) {
+          amount = amount * (1 + interestRate);
+
+          // Count negative, positive, and zero numbers
+          if (amount < 0) {
+            negativeCount++;
+          } else if (amount > 0) {
+            positiveCount++;
+          } else {
+            zeroCount++;
+          }
+        }
+
+        return {
+          amount: amount,
+          negativeCount: negativeCount,
+          positiveCount: positiveCount,
+          zeroCount: zeroCount,
+        };
+      }
+
+      // Function to handle user input and calculate amount and count numbers
+      function processInput() {
+        var years = parseInt(prompt("Enter the number of years:"));
+
+        // Check if the input is a valid positive integer
+        if (!isNaN(years) && years > 0 && Number.isInteger(years)) {
+          // Calculate amount and count numbers
+          var result = calculateAmountAndCountNumbers(years);
+
+          // Display the results using alert
+          alert(
+            "Amount in the account after " +
+              years +
+              " years: Rs " +
+              result.amount.toFixed(2) +
+              "\nNegative Numbers: " +
+              result.negativeCount +
+              "\nPositive Numbers: " +
+              result.positiveCount +
+              "\nZeros: " +
+              result.zeroCount
+          );
+        } else {
+          alert(
+            "Please enter a valid positive integer for the number of years."
+          );
+        }
+      }
+
+      // Trigger the processInput function when the page is loaded
+      window.onload = processInput;
+    </script>
+  </body>
+</html>
